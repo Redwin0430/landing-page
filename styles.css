@@ -1,5 +1,64 @@
+body {
+    margin: 0;
+}
+
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: Roboto, 'Times New Roman', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 5px;
+    max-width: 100px;
+    border-radius: 4px;
 }
