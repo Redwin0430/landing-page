@@ -143,6 +143,22 @@ body {
 
 /* Start of call to action section */
 
+.action {
+    margin: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.call-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 5px 40px;
+}
 
 /* End of call to action section */
