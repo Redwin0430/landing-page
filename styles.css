@@ -147,18 +147,32 @@ body {
     margin: 50px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10px;
     padding: 50px;
     display: flex;
     justify-content: space-between;
 }
 
+.short {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.long {
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
 .call-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-width: px;
     border-color: #F9FAF8;
     border-style: solid;
     border-radius: 6px;
-    padding: 5px 40px;
+    padding: 0px 35px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 /* End of call to action section */
