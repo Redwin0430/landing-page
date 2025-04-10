@@ -73,6 +73,10 @@ body {
 /* End of styling of header section */
 
 /* Start of styling of information section */
+.information-section {
+    height:400px;
+}
+
 .information-header {
     font-weight: 900;
     font-size: 36px;
@@ -110,6 +114,29 @@ body {
 
 /* Start of styling quote section */
 
+.quote-section {
+    background-color: #E5E7EB;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
 
+.box-quote {
+    max-width: 800px;
+    padding: 100px 20px;
+}
 
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.speaker {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
+}
 /* End of styling quote section */
