@@ -2,12 +2,16 @@ body {
     margin: 0;
 }
 
+/* Start of styling of header section */
+
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: Roboto, 'Times New Roman', serif;
+    height: 428px;
 }
 
+/* Start of styling of header banner */
 .header {
     display: flex;
     justify-content: space-around;
@@ -30,17 +34,19 @@ body {
     margin: 0;
     padding: 0;
 }
+/* End of styling of header banner */
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 55px;
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 5px;
     max-width: 400px;
 }
 
@@ -61,4 +67,7 @@ body {
     padding: 5px;
     max-width: 100px;
     border-radius: 4px;
+    margin-top: 10px;
 }
+
+/* Start of styling of header section */
