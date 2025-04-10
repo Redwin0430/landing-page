@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Roboto, 'Times New Roman', serif;
 }
 
 /* Start of styling of header section */
@@ -7,7 +8,6 @@ body {
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: Roboto, 'Times New Roman', serif;
     height: 428px;
 }
 
@@ -70,4 +70,39 @@ body {
     margin-top: 10px;
 }
 
-/* Start of styling of header section */
+/* End of styling of header section */
+
+/* Start of styling of information section */
+.information-header {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-photos {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    max-width: 170px;
+}
+
+.photo {
+    padding: 60px 5px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.photo-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
