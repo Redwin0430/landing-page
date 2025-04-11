@@ -96,6 +96,7 @@ body {
 
 .photos {
     max-width: 180px;
+    max-height: 180px;
 }
 
 .photo {
@@ -118,11 +119,11 @@ body {
     height: 360px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box-quote {
     max-width: 800px;
-    padding: 100px 20px;
 }
 
 .quote {
@@ -150,6 +151,7 @@ body {
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .short {
